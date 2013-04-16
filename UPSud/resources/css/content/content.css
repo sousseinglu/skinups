@@ -1,0 +1,122 @@
+/*
+ *  Copyright 2012 Anyware Services
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+
+.ametys-cms-content .content-illustration
+{
+	float: left;
+}
+
+.ametys-cms-content .content-illustration.small
+{
+	width: 110px;
+}
+
+.ametys-cms-content .content-illustration img
+{
+	margin-left: 0;
+}
+
+.ametys-cms-content .content-richtext-end
+{
+	clear: both;
+}
+
+.ametys-cms-content .meta .content-contact,
+.ametys-cms-content .meta .content-published-date
+{
+	text-align: right;
+	font-size: 0.9em;
+	font-style: italic;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* comments */
+.ametys-cms-content .comments-wrapper
+{
+	border-top-style: solid;
+	border-top-width: 1px;	
+}
+
+.ametys-cms-content .comments-wrapper ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-image: none;
+	list-style-type: none;
+}
+.ametys-cms-content .comments-wrapper ul li
+{
+	margin: 0;
+	padding: 5px;
+}
+.ametys-cms-content .comments-wrapper ul li.even
+{
+	background-image: url('../../img/services/even.png');
+}
+.ametys-cms-content .comments-wrapper ul li.last-comment
+{
+	border-style: solid;
+	border-width: 1px;
+}
+
+.ametys-cms-content .comments-wrapper ul li div.comment-content,
+.ametys-cms-content .comments-wrapper ul li p.comment-footer
+{
+	margin-left: 20px;
+}
+
+.ametys-cms-content .comments-wrapper ul li div.comment-content p
+{
+	margin: 0;
+}
+.ametys-cms-content .comments-wrapper ul li p.comment-header
+{
+	margin-top: 0;
+}
+.ametys-cms-content .comments-wrapper ul li p.comment-footer
+{
+	margin-bottom: 0;
+}
+
+.ametys-cms-content .comments-wrapper form
+{
+	max-width: 405px;
+	padding: 5px !important;
+	border-style: solid;
+	border-width: 1px;
+	background-image: url('../../img/services/hover.png');
+}
+
+.ametys-cms-content .comments-wrapper form .field .input
+{
+	text-align: left;
+}
+
+.ametys-cms-content .comments-wrapper form .field.checkbox .input input
+{
+	width: auto !important;
+}
+
+.ametys-cms-content .comments-wrapper form .field
+{
+	margin-bottom: 2px;
+}
+
+.ametys-cms-content .image-wrapper .legend
+{
+	font-style: italic;
+}

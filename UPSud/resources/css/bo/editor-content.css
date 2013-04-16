@@ -1,0 +1,389 @@
+/*
+ *  Copyright 2012 Anyware Services
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+
+/* begin Page */
+body.mceContentBody
+{
+	font-family: Arial, Helvetica, Sans-Serif;
+	color: #0F1419;
+  background-color: #F3F9FB !important;
+}
+
+td
+{
+	font-family: Arial, Helvetica, Sans-Serif;
+	color: #0F1419;
+}
+
+.mceContentBody h1, 
+.mceContentBody h2, 
+.mceContentBody h3
+{
+    margin: 0;
+    padding: 0;  
+  	font-family: Arial, Helvetica, Sans-Serif;
+  	font-style: normal;
+  	font-weight: bold;
+  	font-size: 32px;
+  	text-decoration: none;    
+}
+
+.mceContentBody h1
+{
+	color: #006BB1;
+	margin: 19px 0;
+	font-size: 16px;  
+}
+
+.mceContentBody h2
+{
+	color: #006BB1;
+	margin: 20px 0;
+	font-size: 14px;  
+}
+
+.mceContentBody h3
+{
+	color: #000000;
+	margin: 26px 0; 
+	font-size: 13px; 
+}
+
+/* ----
+   LINK
+   ---- */
+.mceContentBody a,
+.mceContentBody a:link
+{
+  text-decoration: none;
+  color: #006BB1;
+}
+.mceContentBody a:visited
+{
+  color: #306482;
+}
+.mceContentBody a:hover
+{
+  text-decoration: underline;
+  color: #3F84AB;
+}
+
+.mceContentBody a.invisible,
+.mceContentBody a.invisible:hover,
+.mceContentBody a.invisible:link,
+.mceContentBody a.invisible:visited,
+.mceContentBody a.invisible:active
+{
+	color: #0F1419 !important;
+	border-bottom: 1px dashed #000000;
+	text-decoration: none !important;
+}
+   
+.mceContentBody a.download,
+.mceContentBody a.download:hover,
+.mceContentBody a.download:link,
+.mceContentBody a.download:visited,
+.mceContentBody a.download:active
+{
+	padding-left: 15px;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-image: url('../../img/link/download.png');
+}
+
+.mceContentBody a.pdf-2-flash,
+.mceContentBody a.pdf-2-flash:hover,
+.mceContentBody a.pdf-2-flash:link,
+.mceContentBody a.pdf-2-flash:visited,
+.mceContentBody a.pdf-2-flash:active
+{
+	padding-left: 15px;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-image: url('../../img/link/magnifier.png');
+}
+
+.mceContentBody a.know-more,
+.mceContentBody a.know-more:hover,
+.mceContentBody a.know-more:link,
+.mceContentBody a.know-more:visited,
+.mceContentBody a.know-more:active
+{
+	padding-bottom: 3px;
+	padding-top: 2px;
+	padding-left: 3px;
+	padding-right: 18px;
+	margin-left: 4px; 
+	margin-right: 4px;
+	background-position: right;
+	background-repeat: no-repeat;
+	border: 1px solid #006BB1;
+	background-image: url('../../img/link/knowmore.png');
+}
+.mceContentBody a.know-more:hover,
+.mceContentBody a.know-more:active
+{
+	border: 1px solid #3F84AB;
+}
+
+.mceContentBody a.external,
+.mceContentBody a.external:hover,
+.mceContentBody a.external:link,
+.mceContentBody a.external:visited,
+.mceContentBody a.external:active
+{
+	padding-right: 18px;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-image: url('../../img/link/external.png');
+}
+
+.mceContentBody a.mailto,
+.mceContentBody a.mailto:hover,
+.mceContentBody a.mailto:link,
+.mceContentBody a.mailto:visited,
+.mceContentBody a.mailto:active
+{
+	padding-left: 20px;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-image: url('../../img/link/mailto.png');
+}
+
+/* end Page */
+
+/* begin Box, Sheet */
+
+/* end Box, Sheet */
+
+/* begin Box, Block, VMenuBlock */
+
+/* end Box, Block, VMenuBlock */
+
+/* begin Box, Block */
+
+/* end Box, Block */
+
+/* begin Box, Post */
+/* -----
+   IMAGE
+   ----- */
+.mceContentBody img
+{
+  	border: solid 1px #284D73;
+  	margin: 7px;
+	padding: 0;	
+}
+
+.mceContentBody img.invisible
+{
+	border-style: none;
+	padding: 0;
+}
+
+.mceContentBody img.frame 
+{
+	background-color: #ffffff;
+	padding: 3px;
+}
+
+.mceContentBody img.largeframe 
+{
+	background-color: #ffffff;
+	padding: 8px;	
+}
+
+.mceContentBody .floatleft 
+{
+	float: left;
+	margin-left: 0;
+}
+
+.mceContentBody .floatright 
+{
+	float: right;
+	margin-right: 0;
+}
+
+/* -----
+   TABLE
+   ----- */
+.mceContentBody table
+{
+  border-collapse: collapse;
+  margin: 1px;
+}
+.mceContentBody table tr td
+{
+  padding: 2px;
+  vertical-align: top;
+  text-align: left;
+}
+.mceContentBody table tr th
+{
+  text-align: center;
+  vertical-align: middle;
+  padding: 7px;
+}
+.mceContentBody table tr th p,
+.mceContentBody table tr td p
+{
+	margin: 0;
+}
+.mceContentBody table.floatright 
+{
+	margin-left: 7px;
+}
+.mceContentBody table.floatleft 
+{
+	margin-right: 7px;
+}
+/* SIMPLE */
+.mceContentBody table.simple,
+.mceContentBody table.simple > tbody > tr > th,
+.mceContentBody table.simple > tbody > tr > td
+{
+	border: 1px solid #006BB1;	
+}
+/* DATALIGHT */
+.mceContentBody table.datalight {
+	border: 1px solid #006BB1;	
+}
+.mceContentBody table.datalight > tbody > tr > th
+{
+	font-weight: bold;
+	text-align: center;
+}
+
+/* DATA */
+.mceContentBody table.data {
+	border: 1px solid #006BB1;	
+}
+
+.mceContentBody table.data > tbody > tr > th,
+.mceContentBody table.data > tbody > tr > td {
+	border: solid 1px #006BB1;
+}
+.mceContentBody table.data > tbody > tr > th {
+	background-image: url('../../img/services/important.png');
+	font-weight: bold;
+	text-align: center;
+}
+
+/* DATASTRONG */
+.mceContentBody table.datastrong {
+	border: 1px solid #006BB1;	
+}
+.mceContentBody table.datastrong > tbody > tr > th,
+.mceContentBody table.datastrong > tbody > tr > td {
+	border: solid 1px #006BB1;
+}
+.mceContentBody table.datastrong > tbody > tr > th {
+	background-color: #006BB1;
+	color: #FFFFFF; /* TODO */
+	border-color: #FFFFFF; /* TODO */
+	font-weight: bold;
+	text-align: center;
+}
+
+/* ---------
+   PARAGRAPH 
+   --------- */
+
+.mceContentBody p.introduction
+{
+	font-size: 0.9em;
+	font-weight: bold;
+	letter-spacing: 0.085em;
+}
+
+.mceContentBody p.secondary
+{ 
+	font-style : italic;
+	font-size : 0.9em;
+	padding-left: 3.25em;
+}
+
+.mceContentBody p.sub-title
+{
+	font-size: 0.9em;
+	font-variant: small-caps;
+	font-weight: bold;
+	letter-spacing: 0.085em;
+}
+
+.mceContentBody p.narrow-spaced
+ 
+{
+	line-height : 110%;
+	margin-top : 0;
+	margin-bottom : 0;
+}/* end Box, Post */
+
+/* begin PostBullets */
+.mceContentBody ul.custom li
+{
+  padding: 0 0 0 9px;
+}
+
+.mceContentBody ul.custom ol>li
+{
+  background: none;
+  padding-left: 0;
+  /* overrides overflow for "ul li" and sets the default value */
+  overflow: visible;
+}
+
+.mceContentBody ul.custom>li
+{
+  background-image: url('../../img/postbullets.png');
+  background-repeat: no-repeat;
+  padding-left: 9px;
+  /* makes "ul li" not to align behind the image if they are in the same line */
+  overflow-x: visible;
+  overflow-y: hidden;
+}/* end PostBullets */
+
+/* begin PostQuote */
+.mceContentBody p.important,
+.mceContentBody p.important a,
+.mceContentBody p.important a:link,
+.mceContentBody p.important a:visited,
+.mceContentBody p.important a:hover
+{
+  color: #000000;
+  font-style: italic;
+  font-weight: normal;
+  text-align: left;
+}
+
+.mceContentBody p.important
+{
+   margin: 2px 0 2px 15px;
+   border: solid 1px #3E81A8;
+  margin: 10px 10px 10px 50px;
+  padding: 6px 6px 6px 30px;
+  background-color: #C3DBE9;
+  background-image: url('../../img/postquote.png');
+  background-position: left top;
+  background-repeat: no-repeat;
+  /* makes blockquote not to align behind the image if they are in the same line */
+  overflow: auto;
+  clear:both;
+}
+
+/* end PostQuote */
+

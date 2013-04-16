@@ -1,0 +1,112 @@
+/*
+ *  Copyright 2012 Anyware Services
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+
+/*
+ * CSS FOR JQUERY.TREEVIEW
+ */
+
+.ametys-cms-service ul.treeview .hitarea 
+{
+	background: url(../../img/services/tree/treeview-gray.gif) -64px -25px no-repeat  !important;
+	height: 16px;
+	width: 16px;
+	margin-left: -16px;
+	float: left;
+	cursor: pointer;
+	margin-top: 2px;
+}
+
+/* fix for IE6 */
+* html .ametys-cms-service ul.treeview .hitarea 
+{
+	display: inline;
+	float:none;
+}
+
+.ametys-cms-service ul.treeview li.collapsable, 
+.ametys-cms-service ul.treeview li.expandable 
+{ 
+	background-position: 0 -176px !important;
+	clear: both; 
+}
+
+.ametys-cms-service ul.treeview .expandable-hitarea 
+{ 
+	background-position: -80px -3px !important;
+	margin-top: 2px;
+}
+
+.ametys-cms-service ul.treeview li.last 
+{ 
+	background-position: 0 -1767px !important; 
+}
+
+.ametys-cms-service ul.treeview li.lastCollapsable,
+.ametys-cms-service ul.treeview li.lastExpandable 
+{
+	background-image: url('../../img/services/tree/treeview-gray.gif') !important;
+}
+
+.ametys-cms-service ul.treeview li.lastCollapsable 
+{ 
+	background-position: 0 -113px !important; 
+}
+
+.ametys-cms-service ul.treeview li.lastExpandable 
+{ 
+	background-position: -32px -70px !important; 
+}
+
+.ametys-cms-service ul.treeview div.lastCollapsable-hitarea,
+.ametys-cms-service ul.treeview div.lastExpandable-hitarea 
+{
+	background-position: 0 !important;
+}
+
+.art-content .ametys-cms-service ul.treeview 
+{
+	 margin: 17px;
+}
+
+.ametys-cms-service ul.treeview .hover 
+{
+	cursor: pointer; 
+}
+
+.ametys-cms-service ul.treeview li 
+{ 
+  	margin: 0 0 0 3px !important;
+  	padding-left: 16px !important;
+	background-image: url('../../img/services/tree/treeview-gray-line.gif') !important;
+  	background-repeat: no-repeat;
+	list-style-type: none;
+}
+
+.ametys-cms-service ul.treeview li ul  
+{
+	margin: 0 0 0 -4px !important;
+}
+
+.ametys-cms-service ul.treeview li ul li 
+{
+    padding-left: 16px !important;
+}
+
+.ametys-cms-service ul.treeview li a 
+{
+	margin-left: 2px;
+	display: inline-block;
+}

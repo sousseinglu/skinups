@@ -1,0 +1,193 @@
+/*
+ *  Copyright 2012 Anyware Services
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+
+.gadgets-layout-end
+{
+	clear: both;
+}
+
+#gadgets-block-ui {
+	border: 2px solid;
+	background-color: inherit;
+    font-family: "Arial";
+    color: inherit;
+    padding: 10px;
+}
+
+ #gadget-form form button {
+	margin-left: 10px;
+}
+
+.gadgets-container-wrapper {
+	overflow: auto;
+	padding:0.5em;
+}
+
+.gadgets-container-wrapper .gadgets-layout-root {
+	margin-top: 10px;
+}
+.gadgets-container-wrapper .header {
+	border-bottom: 1px solid;
+	overflow: auto;
+}
+.gadgets-container-wrapper .header h3 {
+	margin: 5px 0 5px 0;
+}
+.gadgets-container-wrapper .header a{
+	font-size:0.9em;
+}
+.gadgets-container-wrapper .header .buttons {
+	float: right;
+	margin-top: 5px;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    font-size: 0.9em;
+}
+
+.ui-dialog .add-gadget-dialog ul.nav {
+	float: left; 
+	width: 200px; 
+	list-style: none outside none; 
+	margin:0; 
+	padding: 0;
+}
+
+.ui-dialog .add-gadget-dialog ul.nav li {
+	font-size:0.9em; 
+	padding: 0 10px 0 0; 
+	margin: 0;
+}
+
+.ui-dialog .add-gadget-dialog ul.nav li a {
+	text-decoration: none;
+	border-bottom: 1px dotted; 
+	display: block; 
+	padding: 4px 8px;
+}
+
+.ui-dialog .add-gadget-dialog ul.nav li a:hover {
+	background: url("../jquery/images/ui-bg_glass_75_e6e6e6_1x400.png") repeat-x 50% 50% #E6E6E6;
+}
+
+.ui-dialog .add-gadget-dialog ul.nav li a.select {
+	background: url("../jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png") repeat-x 50% 50% #CCCCCC;
+    color: #222222;
+}
+
+.ui-dialog .add-gadget-dialog .item-gadget {
+	float: left; 
+	margin: 0 10px 10px 0;
+	font-size: 0.9em;
+	width: 130px;
+	height: 140px;
+}
+.ui-dialog .add-gadget-dialog .item-gadget .thumbnail{
+	border: 1px solid; 
+	width: 120px; 
+	height: 60px; 
+	padding: 2px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.ui-dialog .add-gadget-dialog .item-gadget .thumbnail img {
+	width: 120px; 
+	height: 60px; 
+}
+.ui-dialog .add-gadget-dialog .item-gadget p {
+	text-align: center; 
+	margin: 5px 0;
+}
+
+.ui-dialog.confirm-box .ui-dialog-buttonpane {
+	border: 0 none;
+}
+
+.gadgets-gadget-title-button-bar img
+{
+	margin: 0;
+}
+ 
+.gadgets-gadget-chrome {
+  margin: 1px;
+  border: 1px solid;
+  font-size: 0.9em;
+}
+
+.gadgets-gadget {
+  border: none;
+}
+
+.gadgets-gadget-title-bar {
+  padding: 4px 4px;
+  background-color: inherit;
+  background-image: url('../../img/services/even.png');
+  color: inherit;
+}
+
+.gadgets-gadget-title {
+  font-weight: bold;
+  color: inherit;
+}
+
+.gadgets-gadget-title-button-bar {
+  color: inherit;
+  float: right;
+}
+
+.gadgets-gadget-title-button-bar a {
+  color: inherit;
+  float: left;
+  margin-left: 3px;
+}
+
+.gadgets-gadget-user-prefs-dialog {
+  background-color: inherit;
+  font-size: 0.9em;
+}
+
+.gadgets-gadget-user-prefs-dialog-action-bar {
+  text-align: center;
+  padding-bottom: 4px;
+}
+
+.gadgets-gadget-content 
+{
+	overflow: auto;
+	width: 100%;
+}
+
+.gadgets-layout-column {
+	float:left;
+}
+
+.gadgets-layout-column p {
+	text-align:center;
+	margin:0;
+	padding: 4px;
+	background-color: inherit;
+	border-bottom: 1px solid;
+	font-size: 0.8em;
+}
+
+#gadgets-load-mask {
+	border: 2px solid;
+    font-size: 0.9em;
+    padding: 15px;
+}
+
+/* Used to style messages produced during rewriting by CajaContentRewriter */
+

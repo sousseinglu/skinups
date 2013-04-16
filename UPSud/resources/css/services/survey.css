@@ -1,0 +1,128 @@
+/*
+ *  Copyright 2012 Anyware Services
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+
+/* buttons */
+
+div.survey div.buttons
+{
+	text-align: right;
+}
+
+div.survey div.buttons div.button
+{
+	display: inline-block;
+}
+
+/* questions */
+
+div.survey .question {
+	border-top-width: 1px;
+	border-top-style: solid;
+	padding: 10px;
+}
+
+div.survey .question fieldset {
+	border-style: none;
+	padding: 0;
+}
+
+div.survey fieldset legend {
+	margin: 0 0 0.6em;
+}
+
+/* matrices */
+
+div.survey .field fieldset
+{
+	border-style: none;	
+	text-align: left;
+	padding: 0;
+	margin: 2px 0;
+}
+
+div.survey .question fieldset .field 
+{
+	text-align: left;
+}
+div.survey .question fieldset .field .label
+{
+	float: left;
+	display: block;
+}
+div.survey .question fieldset .field .input
+{
+	float: left;
+	width: auto !important;
+	min-width: 0 !important;
+}
+div.survey .question fieldset .field .input input
+{
+	width: auto !important;
+}
+
+div.survey .field fieldset.even table
+{
+	background-image: url('../../img/services/even.png');
+}
+
+div.survey .field fieldset legend span
+{
+	position: absolute;
+	left: -20000px;
+	top: -20000px;
+}
+
+div.survey .field table
+{
+	table-layout: fixed;
+	border-collapse:collapse;
+}
+
+div.survey .field table td
+{
+	width: 70px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0 3px;
+	font-weight: bold;
+}
+
+div.survey .field fieldset table td
+{
+	font-weight: normal;
+}
+
+div.survey .field table td.legend
+{
+	text-align: left;
+}
+
+div.survey .field table td label
+{
+	display: none;
+}
+
+div.survey .field table td .jqTransformRadioWrapper
+{
+	display: inline-block;
+	float: none;
+}
+
+div.survey .rules 
+{
+    font-style: italic;
+    padding-left: 25px;
+}

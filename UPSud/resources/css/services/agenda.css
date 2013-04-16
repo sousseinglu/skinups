@@ -1,0 +1,198 @@
+/*
+ *  Copyright 2012 Anyware Services
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+
+/*
+CSS FOR AGENDA
+*/
+
+.previous, .next
+{
+	font-size: 0.9em;
+}
+
+.previous
+{
+	float: left;
+}
+
+.next
+{
+	float: right;
+}
+
+.week th,
+.month th
+{
+	font-size: 0.82em;
+}
+
+.week .current,
+.month .current
+{
+	text-transform: capitalize;
+	font-size: 1.4em;
+	clear: both;
+	display: inline-block;
+}
+
+.other-view
+{
+	font-style: italic;
+	font-size: 0.9em;
+	clear: both;
+}
+
+.month,
+.week
+{
+	width: 100%;
+ 	table-layout: fixed;
+}
+
+.month tbody tr,
+.week tbody tr
+{
+	height: 75px;
+}
+
+.month .day,
+.week td
+{
+	font-size: 0.9em;
+    text-indent: 11px;
+  	border: 1px solid;
+    padding: 2px;
+	background-color: rgba(217, 217, 217, 0.2);
+}
+
+.month .outside
+{
+	background-color: rgba(217, 217, 217, 0.5);
+}
+
+.month .today,
+.week .today
+{
+	background-color: rgba(255, 0, 0, 0.2);
+	*background:transparent; 
+	*zoom: 1;
+}
+
+.legend ul 
+{
+	margin: 15px 0;
+}
+
+.legend ul li
+{
+	list-style-type: none;
+	line-height: inherit;
+	display: inline-block;
+	margin-bottom: 3px;
+	margin-right: 6px;
+    padding: 0 5px;
+}
+
+.legend ul li a
+{
+	vertical-align: baseline;
+}
+
+.category_1
+{
+	background: url('../../img/services/agenda/a.gif') no-repeat;
+}
+
+.category_2
+{
+	background: url('../../img/services/agenda/b.gif') no-repeat;
+}
+
+.category_3
+{
+	background: url('../../img/services/agenda/c.gif') no-repeat;
+}
+
+.category_4
+{
+	background: url('../../img/services/agenda/d.gif') no-repeat;
+}
+
+.category_5
+{
+	background: url('../../img/services/agenda/e.gif') no-repeat;
+}
+
+.category_6
+{
+	background: url('../../img/services/agenda/f.gif') no-repeat;
+}
+
+.category_7
+{
+	background: url('../../img/services/agenda/g.gif') no-repeat;
+}
+
+.category_8
+{
+	background: url('../../img/services/agenda/h.gif') no-repeat;
+}
+
+.category_9
+{
+	background: url('../../img/services/agenda/i.gif') no-repeat;
+}
+
+.category_10
+{
+	background: url('../../img/services/agenda/j.gif') no-repeat;
+}
+
+.day .category_1,
+.day .category_2,
+.day .category_3,
+.day .category_4,
+.day .category_5,
+.day .category_6,
+.day .category_7,
+.day .category_8,
+.day .category_9,
+.day .category_10
+{
+	background-position: 0.2em 2px;
+	padding-left: 7px !important;
+	display: block;
+}
+
+.legend .category_1,
+.legend .category_2,
+.legend .category_3,
+.legend .category_4,
+.legend .category_5,
+.legend .category_6,
+.legend .category_7,
+.legend .category_8,
+.legend .category_9,
+.legend .category_10
+{
+	background-position: 0.2em center;
+	padding-left: 19px !important;
+}
+
+.legend .current
+{
+	border: 1px solid;
+}

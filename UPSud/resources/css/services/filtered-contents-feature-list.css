@@ -1,0 +1,137 @@
+/*
+ *  Copyright 2012 Anyware Services
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+
+/*
+CSS FOR FILTERED-CONTENTS-FEATURE-LIST
+*/
+
+.filtered-contents.feature-list-contents div.rss
+{
+	float: right;
+}
+.filtered-contents.feature-list-contents div.featureList.js{
+	height: 350px;
+    overflow: hidden;
+    border: 1px solid #B3BBC5; 
+}
+.filtered-contents.feature-list-contents div.featureList {
+    position: relative;    
+    width: 720px;
+    margin: 15px auto 10px;
+}
+
+.filtered-contents.feature-list-contents div.featureList ul {
+/*     position: absolute; */
+    list-style: none;   
+    padding: 0;
+    margin: 0;
+    float:left;
+}
+
+.filtered-contents.feature-list-contents ul.featureListTabs {
+	right: 0;
+	z-index: 2;
+	width: 250px;
+/* 	position:absolute; */
+	top:0;
+}
+
+.filtered-contents.feature-list-contents div.featureList.js ul.featureListTabs{
+	float:right;
+}
+
+.filtered-contents.feature-list-contents ul.featureListTabs li img {
+	float: left; 
+	margin: 2px 5px; 
+	background: #fff; 
+	padding: 2px; 
+	border: 1px solid #eee;
+}
+
+.filtered-contents.feature-list-contents ul.featureListTabs li a {
+    text-decoration: none;  
+    display: block;
+    padding: 5px 10px;
+    height: 60px;
+}
+
+.filtered-contents.feature-list-contents ul.featureListTabs li a:hover {
+    text-decoration: underline;
+}
+
+.filtered-contents.feature-list-contents ul.featureListTabs li a.current {
+    color: #333333;
+    background-color: #CCCCCC;
+}
+
+.filtered-contents.feature-list-contents ul.featureListTabs li a.current:hover {
+    text-decoration: none;
+}
+
+.filtered-contents.feature-list-contents ul.featureListOutput {
+    left: 0;
+    width: 470px;
+/*     height: 340px; */
+    position: relative;
+}
+
+.filtered-contents.feature-list-contents ul.featureListOutput li {
+/*     position: absolute; */
+    width: 470px;
+    height: 350px;
+    float:left;
+    margin-bottom:10px;
+}
+
+.filtered-contents.feature-list-contents ul.featureListOutput .featureListDetails {
+    position:relative; 
+    top:-113px; 
+    left:0; 
+    height:94px; 
+    background: url("../../img/services/filtered-contents/transparent-bg.png");   
+    color: #FFF; 
+    padding: 8px;       
+    width: 454px;  
+}
+
+.filtered-contents.feature-list-contents ul.featureListOutput .featureListDetails a {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+.filtered-contents.feature-list-contents ul.featureListOutput .featureListDetails a.title {
+	text-decoration: none;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.5em;	
+}
+.filtered-contents.feature-list-contents .link{
+	float:right;
+	margin-right:10px;
+}
+.filtered-contents.feature-list-contents button.featureListControl.play,
+.filtered-contents.feature-list-contents button.featureListControl.pause{
+	background:transparent url(../../img/services/filtered-contents/dot-pause.png) no-repeat left center;
+	border-width:0;
+	overflow:hidden;
+	padding: 0 7px;
+	cursor:pointer;
+	margin-left: 8px;
+	padding-left:22px;
+	color:#666666;
+}
+.filtered-contents.feature-list-contents button.featureListControl:hover{ text-decoration:underline; }
+.filtered-contents.feature-list-contents button.featureListControl.play{ background-image:url(../../img/services/filtered-contents/dot-play.png);}

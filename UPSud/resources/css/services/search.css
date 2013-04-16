@@ -1,0 +1,316 @@
+/*
+ *  Copyright 2012 Anyware Services
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+
+/* CSS FOR RESULT SORT */
+
+.results-sort
+{
+	text-align: right;	
+}
+
+.results-sort span.label
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.results-sort ul
+{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+
+.results-sort ul li
+{
+	list-style-type: none;
+	margin-left: 3px;
+	display: inline-block;
+    padding: 0 !important;
+    vertical-align: middle;
+}
+
+.results-sort p 
+{
+	float: left;
+	padding: 0;
+	padding-top: 2px;
+	margin: 0;
+	text-align: right;
+}
+
+.results-sort ul li span.current
+{
+	font-weight: bold;	
+}
+
+.results ul
+{
+	margin-left: 0 !important;
+}
+
+.results ul li
+{
+	list-style-type: none;
+	padding: 16px;
+	clear: both;
+}
+
+.results ul li img
+{
+	border-style: none !important;
+}
+
+.results ul li.even
+{
+	background-image: url('../../img/services/even.png');
+	background-repeat: repeat;
+	background-color: transparent;
+}
+
+.results-sort ul li .art-button-wrapper
+{
+	text-align: center;
+}
+
+.results-sort ul li input.art-button
+{
+	border: 0 none !important;
+	background: none !important;
+	cursor: pointer;
+	width: auto;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.search-hits dt
+{
+	padding: 5px !important;
+	overflow: auto;	
+}
+
+.search-hits img
+{
+	border: 0 none;
+}
+ 
+.search-hits .resource img, .search-hits .resource a
+{
+	vertical-align: middle;
+}
+
+.search-hits .resource span
+{
+	font-size: 0.8em;	
+	vertical-align: sub;
+}
+
+form.search, form.search-result {
+	padding: 0 !important;
+	max-width: 500px;
+}
+
+form.search span.error {
+	margin-left: 170px;
+}
+
+form.search fieldset.checkbox-list {
+	border:none;
+}
+form.search fieldset.checkbox-list legend {
+    margin-left: -5px;
+    margin-top: 5px;
+    position: absolute;
+}
+form.search fieldset.checkbox-list .field {
+	max-width: 900px;
+	width: 40%;
+    min-width: 245px;
+    margin-left: auto;
+    margin-right: 0;
+}
+form.search fieldset.checkbox-list .field .input {
+	float: left;
+	width: 25px;
+	min-width: 25px;
+}
+
+form.search input.checkbox {
+	width: auto;
+	margin-left: 120px;
+}
+
+.no-result {
+	padding: 10px 0 10px 10px;
+}
+
+.search-hits dd 
+{
+	margin-left: 0;
+	margin-bottom: 10px;
+	padding: 0 10px 5px 10px;
+}
+
+.search-hits dd span.site 
+{
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+.search-hits img.icon, .results img.icon
+{
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.search div.date 
+{
+	font-size: 0.9em;
+	font-style: italic;
+	text-align: right;
+}
+
+.ctypes-filter ul.ctypes 
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.ctypes-filter ul.ctypes li 
+{
+	display: inline-block;
+    padding: 0 !important;
+    vertical-align: middle;
+}
+
+ul.ctypes li span.art-button-wrapper
+{
+	height: auto !important;
+}
+
+.ctypes-filter ul.ctypes li span 
+{
+	vertical-align: middle;
+}
+
+.results-sort ul li .button,
+.ctypes-filter ul.ctypes li .button
+{
+	margin-bottom: auto !important;
+	margin: auto !important;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.results-sort ul li .button .art-button-wrapper,
+.ctypes-filter ul.ctypes li .button .art-button-wrapper
+{
+	margin-top: auto !important;
+	height: auto !important;
+}
+
+.results-sort ul li input,
+.ctypes-filter ul.ctypes li input
+{
+	font-size: inherit !important;
+	font-style: inherit !important;
+	font-weight: inherit !important;
+    margin: 0 !important;
+	padding: 0 !important;
+	cursor: pointer;
+	width: auto !important;
+	height: auto !important;
+	border: 0 none !important;
+	background: none !important;
+}
+
+.ctypes-filter ul.ctypes .button
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.ctypes-filter ul.ctypes li .art-button-l, 
+.results-sort ul li .art-button-l,
+.ctypes-filter ul.ctypes li .art-button-r, 
+.results-sort ul li .art-button-r
+{
+	display: none;
+}
+
+.ctypes-filter p.number 
+{
+	float: right;
+	margin: 0;
+}
+
+.ctypes-filter p.number span 
+{
+	font-size: 1.8em;
+}
+
+	.results-sort ul li input,
+	.ctypes-filter ul.ctypes li input
+	{
+		margin: -5px -3px;
+	}
+
+/* Faceted search */
+.facet {
+    margin-bottom: 10px;
+}
+
+.facet .facet-label {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.facet ul.options li.option {
+    list-style: none;
+    background: none;
+    padding: 0;
+    line-height: 1.2em;
+    font-size: 1em;
+}
+
+.selected-facets {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 2px;
+    background-color: #e3e9eb;
+}
+
+.selected-facets-header {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.unselected-facets {
+    margin-bottom: 5px;
+}
+
+.unselected-facets .facet {
+    float: left;
+    width: 32%;
+    min-height: 50px;
+    padding-top: 5px;
+    margin: 3px;
+    border-top: solid 1px #e3e9eb;
+}

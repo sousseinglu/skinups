@@ -1,0 +1,123 @@
+/*
+ *  Copyright 2012 Anyware Services
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+
+/*
+CSS FOR FILTERED-CONTENTS-CAROUSEL
+*/
+
+.filtered-contents.carousel-contents div.rss
+{
+	float: right;
+}
+
+.filtered-contents.carousel-contents .carousel-container {
+	width: 722px;
+	margin: 0 auto;
+}
+.filtered-contents.carousel-contents .carousel-container.js {
+	height: 337px;
+	position: relative;
+	background: transparent	url(../../img/services/filtered-contents/slider.png) no-repeat 0 0;
+}
+
+.filtered-contents.carousel-contents .carousel-wrap,
+.filtered-contents.carousel-contents ul {
+	width: 568px;
+	margin: 0 auto 0 auto;
+}
+
+.filtered-contents.carousel-contents .carousel-container ul li {
+	padding-top: 18px;
+}
+.filtered-contents.carousel-contents .carousel-container.js ul li {
+	display: inline;
+	float: left;
+}
+
+.filtered-contents.carousel-contents .carousel-container.js .carouselDetails {
+	position: absolute;
+}
+.filtered-contents.carousel-contents .carousel-container .carouselDetails {
+    bottom: 21px;
+    height:73px; 
+    background: url("../../img/services/filtered-contents/transparent-bg.png");   
+    color: #FFF; 
+    padding: 8px;       
+    width: 552px;  
+}
+
+.filtered-contents.carousel-contents .carouselDetails a {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+.filtered-contents.carousel-contents .carouselDetails a.title {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.5em;	
+}
+
+.filtered-contents.carousel-contents input.carousel-control {
+	position: absolute;	
+	height: 42px;
+	width: 24px;
+	border-width:0;
+	text-indent:-999px;	
+	cursor: pointer;
+	padding: 0;
+	top: 120px;		
+}
+
+.filtered-contents.carousel-contents input.disabled {
+	display: none;	
+}
+
+.filtered-contents.carousel-contents input.carousel-control.carousel-previous {
+	background: transparent	url("../../img/services/filtered-contents/arrows.png") no-repeat 0 50%;	
+	left: 36px;
+}
+
+.filtered-contents.carousel-contents input.carousel-control.carousel-next {
+	background: transparent	url("../../img/services/filtered-contents/arrows.png") no-repeat 100% 50%;
+	right: 36px;
+}
+
+.filtered-contents.carousel-contents div.carousel-pagination {
+	text-align: center;
+	position: relative;
+	top: -20px;	
+}
+.filtered-contents.carousel-contents div.carousel-pagination a{
+	padding: 0 10px;
+	cursor: pointer;
+	background: transparent	url(../../img/services/filtered-contents/bullets.png) no-repeat 0 0;
+}
+
+.filtered-contents.carousel-contents div.carousel-pagination a span {display: none;}
+.filtered-contents.carousel-contents div.carousel-pagination a.active {background-position: 0 -22px;}
+
+.filtered-contents.carousel-contents div.carousel-pagination button.slide-control.play,
+.filtered-contents.carousel-contents div.carousel-pagination button.slide-control.pause{
+	background:transparent url(../../img/services/filtered-contents/dot-pause.png) no-repeat 50% 50%;
+	border-width:0;
+	text-indent:-999px;
+	overflow:hidden;
+	padding: 2px 7px;
+	cursor:pointer;
+	margin-right: 15px;
+}
+
+.filtered-contents.carousel-contents div.carousel-pagination button.slide-control.pause{ background-image:url(../../img/services/filtered-contents/dot-play.png);}
